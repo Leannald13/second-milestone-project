@@ -1,25 +1,49 @@
 
+ 
   /* ------------------------------------------------------------- main image and navbar across all pages */
 
 
-.mainimage {
+.background {
     width: 100%;
-    height: 400px;
+    height: 600px;
 }
 
 body {
-    background-color: #b2b2b2;
+    background-color: #EBCEAC;
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -130%);
+  color: #f0f1f2;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 50px;
+  background: rgba(0, 0, 0, 0);
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+
 }
 
 .navbar {
     margin: 0;
     border: 0;
-    background-color: #b2b2b2;
-    color: #d1d8e3;
+    background-color: #EBCEAC;
+    color: #003366;
     position: fixed;
     z-index: 10;
     width: 100%;
     
+}
+
+.nav-link {
+     font-family: 'Noto Sans JP', sans-serif;
+      color: #003366;
 }
 
 .symbol {
@@ -30,61 +54,201 @@ body {
 }
 
 h4 {
-    color: #484f4f;
-    font-family: 'Neucha', cursive;
+     color: #36454f;
+    font-family: 'Philosopher', sans-serif;
     font-size: 40px;
     padding-top: 40px;
 }
 
+.sign {
+    height: 270px;
+    width: 270px;
+}
 
-.span4.outset {
-    padding-top: 55px;
-    padding-left: 40px;
-} 
 
+.background2 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+ /* ---------------------------------------------------Carousel */
+
+
+
+  .carousel-inner img {
+
+      width: 100%;
+
+
+  }
+
+
+
+  #myCarousel {
+
+      margin: 0;
+
+      padding: 0;
+
+  }
+
+
+
+  .carousel-item {
+
+      position: relative;
+
+      margin-right: -100%;
+
+      width: 100%;
+
+  }
+
+  
+
+  .carousel-caption {
+
+     text-align: center;
+
+     color: #FFc107;
+
+     font-weight: 700;
+
+     padding-bottom: 100px;
+
+     margin-bottom: 30px;
+
+     
+
+  }
 
   /* ------------------------------------------------------------- index.htmll */
   
-.canyon {
+#about {
+
+    background-color: #fff;
+
+    padding-top: 2em;
+
+}
+
+  
+ 
+
+
+
+.box1 {
+    box-sizing: border-box;
     float: left;
-    width: 300px;
-    height: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: #efefef;
+    color: #003366;
+    
+}
+
+.card {
+    margin: 20px;
     margin-top: 60px;
-    margin-left: 100px;
-    margin-right: 30px;
-    border: solid;
-    border-color: #f4e1d2;
 }
 
-p {
-    padding: 150px 50px 0 200px
-   
+.box1 h3 {
+    text-align: center;
 }
 
-.motel {
-    float: right;
-    width: 300px;
-    height: 300px;
-    margin-top: 120px;
-    margin-left: 100px;
-    margin-right: 30px;
-    border: solid;
-    border-color: #f4e1d2;
+.dealone {
+    padding: 10px;
+ 
 }
 
-.enquiry {
-    margin-top: 70px;
-    margin-right: 40px;  
+.dealtwo {
+    padding: 10px;
+}
+
+.dealthree {
+    padding: 10px;
+ 
+}
+
+.card {
+  height: 400px;
+  width: 240px;
+  text-align: center;
+  background-color: #f18973;
+  border-color: : #f4e1d2;
+  border: 2px;
+  float: left;
+  box-sizing: border-box;
+}
+
+
+.card img {
+  height: 40%;
+  width: 100%;
+  padding-right: 20px;
   
 }
 
-#article-content {
-    padding: 40px;
-    background-color: #fefbd8;
-    margin: 70px;
-    border: solid;
-    border-color: #f4e1d2;
+  
+ 
+
+  .review-img {
+      background-color: #ffc107;
+      height: 200px;
+      width: 200px;
+      margin-top: 0;
+      border-radius: 50%;
+      text-align: center;
+      margin-left: 40px;
+
+  }
+
+
+
+  .review1 {
+
+      border-color: transparent;
+      font-size: 28px;
+      color: black;
+      margin-left: 20px;
+      margin-right: 20px
+      padding-top: 40px;
+
+  }
+
+
+
+  p.card-text {
+   font-size: 15px;
+  
+  }
+
+
+
+.card-body {
+ text-align: center;
+
 }
+
+.review {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.stars {
+    color: yellow;
+    font-size: 20px;
+}
+
+
+
+
+/* ------------------------------------------------------------ temporary block
+
+
+/* ------------------------------------------------------------ temporary block o
 
 .row.article
 .span9.outset {
@@ -94,95 +258,62 @@ p {
     border: 5px;
 }
 
-.span6.outset {
-    width: 180px;
-    background-color: #f4e1d2;
-    height: 180px;
-    box-sizing: border-box;
-    margin-left: 350px;
-    margin-top: 30px;
-}
-
-.span6.outset p {
-    padding: 10px;
-}
-
-.enquiry-button {
-    padding-left: 40px;
-}
-
-.span3.outset {
-    width: 200px;
-    height: 150px;
-    
-}
-
-
-.attractions {
-    width: 200px;
-    height: 150px;
-
-}
-
-
-.label {
-
+.card {
   height: 400px;
   width: 240px;
   text-align: center;
   background-color: #f18973;
   border-color: : #f4e1d2;
   border: 2px;
-  
-
+  float: left;
+  box-sizing: border-box;
 }
 
 
-#row-of-labels {
-padding-left: 50px;
-padding-right: 50px;
-margin-top: 50px;
-
-}
-
-
-
-.label img {
-
+.card img {
   height: 40%;
-
+  width: 100%;
+  padding-right: 20px;
+  
 }
 
-
-.label-body {
-
-  border-top: 1px solid white;
-
-}
-
-
-
-.label-body h5 {
-
-  font-family: 'Roboto', sans-serif;
-
-  color: #e6e3df;
-
-  margin-top: 15px;
-
-}
-
-
-.label-body p {
-  font-family: 'Roboto', sans-serif;
-  color: #c4c1bc;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 70px;
-
+h6 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #003366;
+  font-weight: 800px;
+  padding: 0px 5px 0px 5px;
+  float: left;
 }
 
 
 
+.box2 {
+  text-align: center;
+  border: 2px;
+  float: left;
+  box-sizing: border-box;
+}
 
+.box2 img {
+    width: 170px;
+    height: 170px;
+    border-radius: 70px;
+    margin-top: 40px;
 
+}
+
+.stars {
+    margin-top: 20px;
+    color: yellow;
+}
+
+.review {
+    margin-top: auto;
+    padding-top: auto;
+    font-style: italic;
+    color: #003366;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+*/
