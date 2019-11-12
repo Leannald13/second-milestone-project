@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #EBCEAC;
+    background-color: #e3b7a0;
 }
 
 
@@ -33,7 +33,7 @@ body {
 .navbar {
     margin: 0;
     border: 0;
-    background-color: #EBCEAC;
+    background-color: #e3b7a0;
     color: #003366;
     position: fixed;
     z-index: 10;
@@ -127,16 +127,10 @@ h4 {
   /* ------------------------------------------------------------- index.htmll */
   
 #about {
-
-    background-color: #fff;
-
+    background-color: #fcfcfc;
     padding-top: 2em;
-
+    padding-top: 60px;
 }
-
-  
- 
-
 
 
 .box1 {
@@ -176,7 +170,7 @@ h4 {
   height: 400px;
   width: 240px;
   text-align: center;
-  background-color: #f18973;
+  background-color: #e3b7a0;
   border-color: : #f4e1d2;
   border: 2px;
   float: left;
@@ -194,7 +188,7 @@ h4 {
   
  
 
-  .review-img {
+.review-img {
       background-color: #ffc107;
       height: 200px;
       width: 200px;
@@ -202,9 +196,8 @@ h4 {
       border-radius: 50%;
       text-align: center;
       margin-left: 40px;
-
-  }
-
+    
+}
 
 
   .review1 {
@@ -213,12 +206,98 @@ h4 {
       font-size: 28px;
       color: black;
       margin-left: 20px;
-      margin-right: 20px
+      margin-right: 20px;
       padding-top: 40px;
-
   }
 
+.box7 {
+  float: left;
+  position: relative;
+  width: 30%;
+  text-align: center;
+  margin-left: 50%
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 3px 10px 10px grey;
+  
+}
 
+.map {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-left: 20px;
+ 
+}
+
+.attractions {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.nationalparks {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.dining {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  #e3b7a0;
+}
+
+.box7:hover .overlay {
+  transition-timing-function: ease-in-out;
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.largebox {
+    box-sizing: border-box;
+    height: 900px;
+    width: 100%;
+    background-color:  #e3b7a0;
+}
+
+.information {
+    padding-top: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* ------------------------------------------------------------ temporary block
 
   p.card-text {
    font-size: 15px;
@@ -243,9 +322,42 @@ h4 {
 }
 
 
+  
+ 
+
+  .review-img {
+      background-color: #ffc107;
+      height: 200px;
+      width: 200px;
+      margin-top: 0;
+      border-radius: 50%;
+      text-align: center;
+      margin-left: 40px;
+
+  }
 
 
-/* ------------------------------------------------------------ temporary block
+  p.card-text {
+   font-size: 15px;
+  
+  }
+
+
+
+.card-body {
+ text-align: center;
+
+}
+
+.review {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+*/
+
+
+
 
 
 /* ------------------------------------------------------------ temporary block o
